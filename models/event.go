@@ -1,18 +1,25 @@
 package models
 
-import "time"
+import (
+	"time"
+)
 
 type Event struct {
-	ID          uint   `json:"id" gorm:"primaryKey"`
-	Title       string `json:"title"`
-	Description string `json:"description"`
-	Location    string `json:"location"`
-	Date        time.Time `json:"date"`
-	UserID      int   `json:"user_id"`
+	ID          uint      `json:"id"`
+	Title       string    `json:"title" binding:"required"`
+	Description string    `json:"description" binding:"required"`
+	Location    string    `json:"location" binding:"required"`
+	Date        time.Time `json:"date" binding:"required"`
+	UserID      int       `json:"user_id"`
 }
 
-var Events = []Event{}
+var events = []Event{}
 
 func SaveEvent(event Event) {
-	Events = append(Events, event)
+	//later add database logic here
+	events = append(events, event)
+}
+
+func GetAllEvents() []Event {
+	return events
 }

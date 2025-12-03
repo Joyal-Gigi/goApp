@@ -1,0 +1,9 @@
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Team Lunch",
+  "date": "2024-07-15T10:00:00Z",
+  "location": "Conference Room A",
+  "description": "Monthly team sync-up Lunch to Eat"
+}
