@@ -2,18 +2,22 @@ package main
 
 import (
 	"fmt"
+
 	"github.com/gin-gonic/gin"
+	"github.com/goApp/db"
 	"github.com/goApp/models"
 )
 
 func main() {
-	server := gin.Default()
+	server := gin.Default() //Create Gin server instance
+	db.InitDB()             //Initialize Database
 
 	//API endpoints
 	server.GET("/ping", pingHandler)    //to check ping
 	server.GET("/events", getAllEvents) //get all events
 	server.POST("/events", createEvent) //create new event
 
+	//start server
 	server.Run(":8080") //localhost:8080
 	fmt.Println("Server is running on http://localhost:8080")
 }
