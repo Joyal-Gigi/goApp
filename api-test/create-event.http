@@ -1,9 +1,207 @@
 POST http://localhost:8080/events
 Content-Type: application/json
 
+{̥
+  "title": "Project Kickoff",
+  "date": "2024-07-16T09:00:00Z",
+  "location": "Main Office",
+  "description": "Starting new client project"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+̥
 {
-  "title": "Team Lunch",
-  "date": "2024-07-15T10:00:00Z",
-  "location": "Conference Room A",
-  "description": "Monthly team sync-up Lunch to Eat"
+  "title": "Code Review Session",
+  "date": "2024-07-17T14:30:00Z",
+  "location": "Virtual - Zoom",
+  "description": "Review pull requests from this sprint"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Client Meeting",
+  "date": "2024-07-18T11:00:00Z",
+  "location": "Downtown Office",
+  "description": "Quarterly business review with stakeholders"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Team Building Event",
+  "date": "2024-07-19T16:00:00Z",
+  "location": "Central Park",
+  "description": "Outdoor team activities and networking"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Database Migration",
+  "date": "2024-07-22T20:00:00Z",
+  "location": "Server Room",
+  "description": "Critical system upgrade scheduled for off-hours"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Training Workshop",
+  "date": "2024-07-23T09:30:00Z",
+  "location": "Training Center",
+  "description": "Go fundamentals and best practices"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Sprint Planning",
+  "date": "2024-07-24T10:00:00Z",
+  "location": "Scrum Room",
+  "description": "Plan tasks for next two-week sprint"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "All Hands Meeting",
+  "date": "2024-07-25T13:00:00Z",
+  "location": "Auditorium",
+  "description": "Company announcements and Q&A session"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Design Review",
+  "date": "2024-07-26T15:00:00Z",
+  "location": "Design Studio",
+  "description": "UI/UX feedback on new dashboard prototype"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Security Audit",
+  "date": "2024-07-29T08:00:00Z",
+  "location": "IT Department",
+  "description": "Annual security compliance check"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Customer Support Training",
+  "date": "2024-07-30T10:30:00Z",
+  "location": "Virtual Meeting",
+  "description": "New support ticket system walkthrough"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Tech Talk - AI/ML",
+  "date": "2024-07-31T14:00:00Z",
+  "location": "Conference Hall",
+  "description": "Industry expert discussion on machine learning trends"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Performance Review Prep",
+  "date": "2024-08-01T09:00:00Z",
+  "location": "HR Office",
+  "description": "Mid-year performance evaluation discussion"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Infrastructure Planning",
+  "date": "2024-08-02T11:00:00Z",
+  "location": "DevOps Lab",
+  "description": "Q4 cloud infrastructure scaling strategy"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "API Documentation Review",
+  "date": "2024-08-05T13:30:00Z",
+  "location": "Online",
+  "description": "Update API docs for v2.0 release"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Team Social - Dinner",
+  "date": "2024-08-06T18:00:00Z",
+  "location": "Downtown Restaurant",
+  "description": "Team celebration dinner"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Bug Triage Meeting",
+  "date": "2024-08-07T10:00:00Z",
+  "location": "Scrum Room",
+  "description": "Prioritize and assign reported bugs"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Release Planning",
+  "date": "2024-08-08T14:30:00Z",
+  "location": "Conference Room B",
+  "description": "Plan features and timeline for v2.1 release"
+}
+
+###
+POST http://localhost:8080/events
+Content-Type: application/json
+
+{
+  "title": "Retrospective Meeting",
+  "date": "2024-08-09T15:00:00Z",
+  "location": "Virtual Room",
+  "description": "Reflect on sprint successes and improvements"
 }
