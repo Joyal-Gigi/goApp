@@ -1,0 +1,10 @@
+PUT http://localhost:8080/events/2
+Content-Type: application/json
+
+{ 
+  "title": "Updated Event",
+  "description": "Yearly HR call to get feedback",
+  "location": "Conference Room A",
+  "date": "2024-07-17T10:00:00Z",
+  "user_id": 0
+}
