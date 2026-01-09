@@ -1,0 +1,40 @@
+### Test User Signup
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "email": "testuser@example.com",
+    "password": "SecurePass123!",
+    "name": "Test User"
+}
+
+### Test Signup with Invalid Email
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "email": "invalid-email",
+    "password": "SecurePass123!",
+    "name": "Test User"
+}
+
+### Test Signup with Weak Password
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "email": "testuser2@example.com",
+    "password": "weak",
+    "name": "Test User"
+}
+
+### Test Signup with Missing Fields
+
+POST http://localhost:8080/signup
+Content-Type: application/json
+
+{
+    "email": "testuser3@example.com",
+    "password": "testuser3",
+    "name": "Test User"
+}
